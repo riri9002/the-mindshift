@@ -1,0 +1,117 @@
+.syne-<uniquifier> {
+  font-family: "Syne", serif;
+  font-weight: <450>;
+  font-style: normal;
+}
+
+.inter-<uniquifier> {
+  font-family: "Inter", serif;
+  font-weight: <450>;
+  font-style: normal;
+}
+
+nav {
+    background-color: #e9edc9;
+    padding: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex: 0.4; /* Makes each list item take up equal space */
+    text-align: center; /* Centers the text inside each item */
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 0px;
+}
+
+nav ul li a:hover {
+    background-color: #ccd5ae; /* Adds background on hover */
+}
+
+li {
+  margin: 10px; /* Adjust spacing between items */
+}
+
+a {
+  text-decoration: none;
+  color: black; /* Default link color */
+}
+
+h1 {
+  color: #000000;
+  font-family: "Syne";
+  font-size: 110px;
+  text-align: center;
+}
+h2 {
+  color: #000000;
+  font-family: "Syne";
+  font-size: 60px;
+  text-align: center;
+}
+
+h3{/*subheadings*/
+    color: #000000;
+    font-family: "Syne";
+    font-size: 30px;
+    text-align: center;
+}
+
+li {
+  color: #000000;
+  font-family: "Inter";
+  font-size: 25px;
+  text-align: justify;
+}
+p {
+  color: #000000;
+  font-family: "Inter";
+  font-size: 20px;
+  text-align: justify;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  font-family: "Inter";
+}
+
+img {
+  vertical-align: middle;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #faedcd;
+  padding: 20px;
+}
+
+.main {   
+  flex: 70%;
+  background-color: #fefae0;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #ccd5ae;
+  color: #000;
+}

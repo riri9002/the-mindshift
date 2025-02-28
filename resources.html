@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Resources</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+
+</head>
+    
+<style>
+    
+    body {
+  background-color: #e9edc9;
+    }
+    
+.header {
+  padding: 10px;
+  text-align: center; 
+  background-image: url(Banner.png);
+background-repeat: no-repeat;
+background-size: cover;
+    color: white; 
+    }
+
+</style>
+    
+<nav><div style="background-color: #ccd5ae">
+  <ul>
+    <li class="site-name"><a href="index.html"><img src="logo.png" alt="logo" style="width:40px;height:40px">The Mind Shift</a></li>
+    <li style="border-left: 0.5px solid black;"><a href="Stress&Anxiety.html">Stress & Anxiety</a></li>
+    <li style="border-left: 0.5px solid black;"><a href="mentalhealth.html">Mental Health</a></li>
+    <li style="border-left: 0.5px solid black;"><a href="resources.html">Resources</a></li>
+  </ul>
+    </div>
+</nav>
+
+<body>
+    
+<div class="header"><h1>Resources!</h1></div>
+
+<div style="align-content:space-between;width:1000px;margin:auto">
+<p>This website is designed to help all the teenagers out there, talking about a huge variety of topics, ranging from understanding and managing social anxiety to handling and controlling exam stress and unearthing the key to excelling in your studies!</p>
+</div>
+
+<div class="row">
+  <div class="side">
+    <div class="image"><img src="Art.png" alt="Art!" style="width:365px;height:365px;">
+</div>
+  </div>
+  <div class="main">
+    <h2>Mindful Colouring!</h2>
+    <p>Mindful colouring is when someone uses art to help calm them down. To maximise the effects of this resource, we would recommend printing the booklet out, sitting in a comfortable position and listening to music that is calming. You can start by clicking on the pencil icon below to download the resource!</p><br>
+      <a href="Mandalas.pdf" download="Mandala">
+  <img src="Pencil.png" alt="Colouring Pages!" style="width: 75px; height: 75px;">
+</a>
+
+  </div>
+</div>
+     
+<br>
+    
+<div class="row">
+  <div class="main">
+      <h2>Journalling!</h2>
+    <p>As we mentioned before, journalling is highly essential to the help heal your mental health. But, we also understand that not everyone would like to write it down since it could be read by anyone and everyone. That is why we have created our very own online notepad. This is to provide you with a safe space, where you could write anything, and it does not get saved anywhere. No one can see it! Not even us! So use this to your advantage to vent about any and all thoughts and feelings! Click below to get started!</p>
+<button onclick="deleteText()"><img src="Bin.png" style="width: 50px;height: 50px"></button>
+  <textarea id="Journal" name="Journal" placeholder="Start typing here!" 
+  style="width: 1400px; height: 1200px; font-family: Inter; font-size: 20px; 
+  overflow-wrap: break-word; white-space: pre-wrap; word-wrap: break-word; 
+  resize: none; border: 1px solid #ccc; border-radius: 5px; padding: 10px;">
+</textarea>
+<br><br>
+  </div>
+    </div>
+    <script>
+        function deleteText() {
+            document.getElementById("Journal").value = "";
+        }
+    </script>
+
+</body>
+</html>
